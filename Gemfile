@@ -21,6 +21,7 @@ gem 'net-smtp', require: false
 gem 'net-imap', require: false
 gem 'net-pop', require: false
 gem 'psych', '~> 3.1'
+gem 'dotenv-rails', '2.7.6'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'
